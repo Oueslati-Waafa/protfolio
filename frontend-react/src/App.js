@@ -1,6 +1,6 @@
 
 import './App.css';
-import {About,Footer,Header,Testimonial,Skills,Work} from './container'
+import {About,Footer,Header,Skills,Work, Certifications} from './container'
 import {Navbar} from './components'
 import './App.scss'
 
@@ -13,7 +13,7 @@ function App() {
       <About/>
       <Work/>
       <Skills/>
-      <Testimonial/>
+      <Certifications/>
       <Footer/>
     </div>
   );
