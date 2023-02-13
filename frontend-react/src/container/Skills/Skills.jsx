@@ -21,7 +21,7 @@ const Skills = () => {
       setSkills(data);
     });
   }, []);
-
+  experiences.sort((a, b) => (a.year < b.year) ? 1 : -1)
   return (
     <>
       <h2 className="head-text">Skills & Internships</h2>

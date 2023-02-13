@@ -3,7 +3,7 @@ export default {
     title:'Certifications',
     type:'document',
     fields:[
-           {name:'name',
+            {name:'name',
                title:'name',
                type:'string'
             },
@@ -16,6 +16,14 @@ export default {
                 name:'provider',
                 title:'Provider',
                 type:'string'
+            },
+            {
+                name:'imgUrl',
+                title:'ImgUrl',
+                type: 'image',
+                options: {
+                  hotspot: true,
+                },
             },
     ]
 }

@@ -5,16 +5,16 @@ import { FaGithub } from 'react-icons/fa';
 const SocialMedia = () => (
   <div className="app__social">
     <div>
-      <BsLinkedin />
+      <a href='https://www.linkedin.com/in/wafa-oueslati-5bb462151/' target="_blank" rel='noreferrer'> <BsLinkedin /> </a>
     </div>
     <div>
-      <FaGithub />
+     <a href='https://github.com/Oueslati-Waafa' target="_blank" rel='noreferrer'><FaGithub /></a>
     </div>
     <div>
-      <BsStackOverflow />
+    <a href='https://stackoverflow.com/users/16373015/waafa-oueslati' target="_blank" rel='noreferrer'><BsStackOverflow /> </a>
     </div>
     <div>
-      <BsYoutube />
+    <a href='https://www.youtube.com/@jsgeek5248' target="_blank" rel='noreferrer'><BsYoutube /></a>
     </div>
   </div>
 );
